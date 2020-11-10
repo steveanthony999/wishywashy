@@ -81,7 +81,7 @@ nav .links a:last-child {
   z-index: 2;
   background: rgba(0, 150, 255, 0.65);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   color: #fff;
 }
