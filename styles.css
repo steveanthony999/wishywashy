@@ -22,30 +22,89 @@ a {
 }
 
 /*========================= NAV MOBILE =========================*/
-nav {
+/* nav {
   padding: 1.2rem;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 3;
   color: #fff;
-}
-
-nav .menu-mobile {
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav .menu-mobile h1 {
+nav h1 {
   font-size: 1rem;
   font-family: 'Pacifico', cursive;
   font-weight: lighter;
+  color: rgba(0, 150, 255, 1);
 }
 
-nav .menu-mobile i {
+nav #links {
+  display: none;
+}
+
+nav a i {
   font-size: 1.6rem;
+  color: rgba(0, 150, 255, 1);
+} */
+
+.mobile-container {
+  /* max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px; */
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  padding: 1.2rem;
+}
+
+.topnav h1 {
+  font-size: 1rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  color: rgba(0, 150, 255, 1);
+}
+
+.topnav #links {
+  display: none;
+}
+
+.topnav #links a {
+  color: rgba(0, 150, 255, 1);
+  padding: 1.2rem 0.6rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+}
+
+.topnav #links a:last-child {
+  background-color: rgba(0, 150, 255, 1);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.topnav a {
+  padding: 1rem 1rem;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.6rem;
+  color: rgba(0, 150, 255, 1);
 }
 
 /*========================= HERO MOBILE =========================*/
@@ -62,9 +121,10 @@ header .hero-mobile .hero-image {
 
 header .hero-mobile .overlay {
   height: 500px;
+  margin-top: -500px;
   width: 100%;
-  position: absolute;
-  top: 0px;
+  position: relative;
+  top: 100%;
   left: 0px;
   z-index: 2;
   background: rgba(0, 150, 255, 0.85);
@@ -81,7 +141,7 @@ header .hero-mobile .overlay .logo-mobile {
 }
 
 /* NAV */
-nav {
+/* nav {
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -105,10 +165,10 @@ nav .links a:last-child {
   padding: 1rem 2rem;
   border-radius: 5px;
   font-weight: 500;
-}
+} */
 
 /* HEADER */
-.frame {
+/* .frame {
   width: 100vw;
   height: 100px;
   position: absolute;
@@ -184,4 +244,4 @@ nav .links a:last-child {
   margin-top: 2rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+} */
