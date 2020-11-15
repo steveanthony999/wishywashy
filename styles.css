@@ -283,6 +283,15 @@ header .hero-mobile .overlay button {
   background: #333;
 }
 
+#testimonials h2 {
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
 #testimonials .swiper-container {
   height: 400px;
 }
