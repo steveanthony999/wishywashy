@@ -164,21 +164,22 @@ header .hero-mobile .overlay button {
 
 #about {
   width: 100vw;
+  height: 600px;
   background: #333;
   color: #fff;
   margin-top: 500px;
-  text-align: center;
-  padding: 1rem 2.4rem;
-  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 2.4rem;
 }
 
 #about h2 {
   font-size: 1.3rem;
-  margin: 2rem 0;
 }
 
 #about p {
-  margin: 1rem 0;
   line-height: 1.6rem;
   text-align: justify;
 }
@@ -186,6 +187,7 @@ header .hero-mobile .overlay button {
 #about a {
   color: rgba(0, 150, 255, 1);
   font-size: 0.75rem;
+  align-self: flex-end;
 }
 
 /*========================= COPY 1 SECTION =========================*/
@@ -224,6 +226,12 @@ header .hero-mobile .overlay button {
   font-family: 'Pacifico', cursive;
   font-weight: lighter;
   font-size: 2rem;
+  background: crimson;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
 }
 
 #services .service-card {
@@ -293,7 +301,21 @@ header .hero-mobile .overlay button {
   font-weight: lighter;
   text-align: center;
   font-size: 2rem;
-  padding-top: 30px;
+  background: crimson;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+}
+
+#testimonials h3 {
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 2rem;
+  /* padding-top: 30px; */
+  color: rgba(0, 150, 255, 1);
 }
 
 #testimonials .swiper-container {
