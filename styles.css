@@ -169,11 +169,12 @@ header .hero-mobile .overlay button {
   margin-top: 500px;
   text-align: center;
   padding: 1rem 2.4rem;
+  padding-bottom: 2rem;
 }
 
 #about h2 {
-  font-size: 2rem;
-  margin: 1rem 0;
+  font-size: 1.3rem;
+  margin: 2rem 0;
 }
 
 #about p {
@@ -241,7 +242,7 @@ header .hero-mobile .overlay button {
 }
 
 #services .service-card h3 {
-  margin-top: -10px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -280,13 +281,11 @@ header .hero-mobile .overlay button {
 
 #testimonials {
   width: 100vw;
-  background: #333;
 }
 
 #testimonials h2 {
   font-family: 'Pacifico', cursive;
   font-weight: lighter;
-  color: #fff;
   text-align: center;
   font-size: 2rem;
   padding-top: 30px;
@@ -333,6 +332,48 @@ header .hero-mobile .overlay button {
   img {
   width: 60px;
   border-radius: 50%;
+}
+
+/*========================= MAILING LIST SECTION =========================*/
+#subscribe {
+  width: 100vw;
+  background-color: #333;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: -6px;
+}
+
+#subscribe h3 {
+  color: #fff;
+}
+
+#subscribe form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#subscribe form input {
+  width: 65%;
+  /* height: 2rem; */
+  padding: 1rem;
+  font-size: 0.75rem;
+  border-radius: 35px 0 0 35px;
+  border: none;
+}
+
+#subscribe form button {
+  width: 25%;
+  margin-left: -10px;
+  border-radius: 0 35px 35px 0;
+  border: none;
+  background-color: rgba(0, 150, 255, 1);
+  color: #fff;
+}
+
+#subscribe form input:focus,
+#subscribe form button:focus {
+  outline: none;
 }
 
 /* NAV */
