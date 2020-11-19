@@ -183,6 +183,11 @@ header .hero-mobile .overlay button {
   text-align: justify;
 }
 
+#about a {
+  color: rgba(0, 150, 255, 1);
+  font-size: 0.75rem;
+}
+
 /*========================= COPY 1 SECTION =========================*/
 
 #copy-1 {
