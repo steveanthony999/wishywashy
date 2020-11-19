@@ -250,8 +250,9 @@ header .hero-mobile .overlay button {
   width: 200px;
   height: 200px;
   padding: 2rem;
-  background: rgba(0, 150, 255, 1);
+  background: #cb6500;
   border-radius: 50%;
+  filter: invert(100%);
 }
 
 #services .service-card h3 {
