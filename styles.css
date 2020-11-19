@@ -153,11 +153,14 @@ header .hero-mobile .overlay h2 {
 }
 
 header .hero-mobile .overlay button {
-  border: 4px solid black;
+  /* border: 4px solid black; */
   border-radius: 35px;
   padding: 1rem 2rem;
-  background: #fff;
+  background: crimson;
+  color: #fff;
   font-size: 1.4rem;
+  border: none;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
 }
 
 /*========================= ABOUT MOBILE =========================*/
@@ -327,11 +330,7 @@ header .hero-mobile .overlay button {
   padding: 3rem;
 }
 
-#testimonials
-  .swiper-container
-  .swiper-wrapper
-  .swiper-slide
-  .testimonials-card {
+#testimonials .swiper-container .swiper-wrapper .swiper-slide .testimonials-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -342,22 +341,12 @@ header .hero-mobile .overlay button {
   background: #fff;
 }
 
-#testimonials
-  .swiper-container
-  .swiper-wrapper
-  .swiper-slide
-  .testimonials-card
-  h2 {
+#testimonials .swiper-container .swiper-wrapper .swiper-slide .testimonials-card h2 {
   color: rgba(0, 150, 255, 1);
   font-size: 2rem;
 }
 
-#testimonials
-  .swiper-container
-  .swiper-wrapper
-  .swiper-slide
-  .testimonials-card
-  img {
+#testimonials .swiper-container .swiper-wrapper .swiper-slide .testimonials-card img {
   width: 60px;
   border-radius: 50%;
 }
@@ -365,14 +354,14 @@ header .hero-mobile .overlay button {
 /*========================= MAILING LIST SECTION =========================*/
 #subscribe {
   width: 100vw;
-  background-color: #333;
+  background-color: #fff;
   text-align: center;
   padding: 2rem 0;
   margin-top: -6px;
 }
 
 #subscribe h3 {
-  color: #fff;
+  color: #333;
 }
 
 #subscribe form {
@@ -387,7 +376,7 @@ header .hero-mobile .overlay button {
   padding: 1rem;
   font-size: 0.75rem;
   border-radius: 35px 0 0 35px;
-  border: none;
+  border: 1px solid rgba(0, 150, 255, 1);
 }
 
 #subscribe form button {
@@ -402,6 +391,44 @@ header .hero-mobile .overlay button {
 #subscribe form input:focus,
 #subscribe form button:focus {
   outline: none;
+}
+
+/*========================= CONTACT SECTION =========================*/
+#contact {
+  width: 100vw;
+  height: 200px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#contact h3 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+#contact .social {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact .social a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/*========================= MY SECTION =========================*/
+#ad {
+  width: 100vw;
+  padding: 1.4rem 0;
+}
+
+p {
+  text-align: center;
+  font-size: 0.75rem;
 }
 
 /* NAV */
