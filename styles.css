@@ -377,6 +377,37 @@ header .hero-mobile .overlay button {
   margin-top: 30px;
 }
 
+#mc_embed_signup_scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.response,
+.mc-field-group label {
+  font-size: 0.4rem;
+}
+
+.mc-field-group label {
+  margin-left: 2rem;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  font-size: 0.4rem;
+}
+
+#mc_embed_signup .button {
+  width: 80vw;
+  height: 3rem;
+  background-color: rgba(0, 150, 255, 1) !important;
+  border-radius: 35px;
+}
+
+.email {
+  border-radius: 35px !important;
+}
+
 /* #subscribe form input {
   width: 65%;
   padding: 1rem;
@@ -402,7 +433,7 @@ header .hero-mobile .overlay button {
 /*========================= CONTACT SECTION =========================*/
 #contact {
   width: 100vw;
-  height: 200px;
+  height: 240px;
   background-color: #333;
   display: flex;
   flex-direction: column;
@@ -424,6 +455,16 @@ header .hero-mobile .overlay button {
 #contact .social a {
   font-size: 2rem;
   color: #fff;
+}
+
+#contact p {
+  color: #fff;
+}
+
+#contact h3 a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: lighter;
 }
 
 /*========================= MY SECTION =========================*/
